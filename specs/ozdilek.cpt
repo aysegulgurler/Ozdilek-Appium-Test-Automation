@@ -1,0 +1,39 @@
+Created by testinium on 3.04.2022
+
+# Elementin sayfada gorunur oldugunu kontrol et ve tikla
+* "6" saniye kadar bekle
+# Alisverise basla butonunu tikla ve kontrol et
+*Xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/tv_startShoppingStore']" li alisverise basla butonuna tikla
+* "6" saniye kadar bekle
+# Kategoriler sayfasini ac ve kontrol et
+*Xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/nav_categories']" li kategoriler sayfasini ac
+* "6" saniye kadar bekle
+# Menuden Kadin secenegine tikla
+*Xpath "//*[@text='Kadın']" li kadin elementini bul ve tıkla
+* "6" saniye kadar bekle
+# Pantolon kategorisini ac
+*Xpath "//*[@text='Pantolon']" li pantolon elementine tikla
+* "6" saniye kadar bekle
+#Sayfayi 2 kere asagi kaydir
+*"5" saniye kadar bekle
+*Sayfayi asagi dogru kaydir
+*Rastgele urun secimi yap
+# Secilen urunu favorilere ekle ve kontrol et
+*Xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/imgAddFav']" li elementi favorilere ekle ve kontrol et
+* "6" saniye kadar bekle
+# Kullanici adi alanini doldur
+*Xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/etEposta']" li elementin icine text yaz
+* "5" saniye kadar bekle
+# Sifre alanini doldur
+*Xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/etPassword']" li elementin icine sifre yaz
+* "5" saniye kadar bekle
+# Geri butonuna 2 kere tikla
+*Xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/ivBack']" li geri elementine kere tikla
+* "5" saniye kadar bekle
+*Rastgele urun secimi yine yap
+* "5" saniye kadar bekle
+#Urunu sepete ekle
+*Xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayAddCartBtn']" li elementi sepete ekle
+* "3" saniye kadar bekle
+
+
